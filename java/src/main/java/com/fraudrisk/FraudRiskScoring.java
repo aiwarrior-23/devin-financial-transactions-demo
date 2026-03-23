@@ -368,8 +368,8 @@ public class FraudRiskScoring {
      * Main entry point for the fraud risk scoring system.
      */
     public static void main(String[] args) {
-        String inputPath = "data/Example1.csv";
-        String outputPath = "data/fraud_risk_report.csv";
+        String inputPath = "../data/Example1.csv";
+        String outputPath = "../data/fraud_risk_report.csv";
 
         FraudRiskScoring scorer = new FraudRiskScoring();
 

@@ -12,7 +12,11 @@ import pandas as pd
 import pytest
 
 # Import the module under test
-import sequence_anomaly_detection as sad
+import sys
+
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "python"))
+
+from fraudRiskScoring import sequenceAnomalyDetection as sad
 
 
 # ---------------------------------------------------------------------------

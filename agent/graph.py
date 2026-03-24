@@ -6,7 +6,7 @@ The graph follows this flow:
                  time_based_insights, reliability_insights] -> llm_summary -> generate_report
 """
 
-from langgraph.graph import END, StateGraph
+from langgraph.graph import END, START, StateGraph
 
 from agent.llm_summary import llm_summary_node
 from agent.nodes import (
@@ -36,7 +36,7 @@ def build_graph() -> StateGraph:
     workflow.add_node("generate_report", generate_report_node)
 
     # Set entry point
-    workflow.set_entry_point("fetch_data")
+    workflow.add_edge(START, "fetch_data")
 
     # After fetching data, fan out to all analysis nodes
     workflow.add_edge("fetch_data", "traffic_analysis")

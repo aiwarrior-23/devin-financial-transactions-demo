@@ -1,0 +1,290 @@
+2026-03-20 08:48:38,303 - INFO - ---- START DEVIN ORCHESTRATION ----
+2026-03-20 08:48:38,303 - INFO - Using playbook ID: playbook-dd0e0d6d68d544b2852e65b5fa37198e
+2026-03-20 08:48:38,303 - INFO - Creating session with playbook: playbook-dd0e0d6d68d544b2852e65b5fa37198e
+2026-03-20 08:48:39,337 - INFO - Session creation status: 200
+2026-03-20 08:48:39,337 - INFO - Session creation response: {"session_id":"2449c3a192f8405d8bcb03a49513877c","url":"https://app.devin.ai/sessions/2449c3a192f8405d8bcb03a49513877c","status":"new","title":"Fraud Ring Detection Task","tags":["fraud","paysim","agent:advanced"],"playbook_id":"playbook-dd0e0d6d68d544b2852e65b5fa37198e","user_id":"bot_apk","org_id":"org-6e8ba024cc5b404b96991d3474127d53","created_at":1773976718,"updated_at":1773976718,"is_archived":false,"acus_consumed":0.0,"pull_requests":[],"is_advanced":true,"parent_session_id":null,"child_session_ids":[],"service_user_id":"service-user-a89c5ac56ecd4774a32ce74e43950e58","structured_output":null,"status_detail":null}
+2026-03-20 08:48:39,343 - INFO - Session created successfully: 2449c3a192f8405d8bcb03a49513877c
+2026-03-20 08:48:39,343 - INFO - Using session ID: 2449c3a192f8405d8bcb03a49513877c
+2026-03-20 08:48:39,343 - INFO - Starting to poll session 2449c3a192f8405d8bcb03a49513877c for PR (timeout: 900s)
+2026-03-20 08:48:40,180 - INFO - Session poll status: 403
+2026-03-20 08:48:40,180 - ERROR - Session poll failed: {"detail":"Unauthorized"}
+2026-03-20 08:48:40,180 - ERROR - HTTP Error polling session: 403 Client Error: Forbidden for url: https://api.devin.ai/v3/organizations/org-6e8ba024cc5b404b96991d3474127d53/sessions/2449c3a192f8405d8bcb03a49513877c
+2026-03-20 08:48:40,180 - ERROR - Response status: 403
+2026-03-20 08:48:40,181 - ERROR - Response text: {"detail":"Unauthorized"}
+2026-03-20 08:48:40,181 - ERROR - Request URL: https://api.devin.ai/v3/organizations/org-6e8ba024cc5b404b96991d3474127d53/sessions/2449c3a192f8405d8bcb03a49513877c
+2026-03-20 08:48:40,181 - ERROR - Orchestration failed: 403 Client Error: Forbidden for url: https://api.devin.ai/v3/organizations/org-6e8ba024cc5b404b96991d3474127d53/sessions/2449c3a192f8405d8bcb03a49513877c
+2026-03-20 08:48:40,181 - ERROR - Error type: HTTPError
+2026-03-20 08:48:40,181 - CRITICAL - Fatal error: 403 Client Error: Forbidden for url: https://api.devin.ai/v3/organizations/org-6e8ba024cc5b404b96991d3474127d53/sessions/2449c3a192f8405d8bcb03a49513877c
+2026-03-20 08:51:16,022 - INFO - ---- START DEVIN ORCHESTRATION ----
+2026-03-20 08:51:16,023 - INFO - Using playbook ID: playbook-dd0e0d6d68d544b2852e65b5fa37198e
+2026-03-20 08:51:16,023 - INFO - Using session ID: afe423ad910949ac9c42048b08c72630
+2026-03-20 08:51:16,023 - INFO - Monitoring session lifecycle: afe423ad910949ac9c42048b08c72630
+2026-03-20 08:51:16,826 - ERROR - Error monitoring session: 403 Client Error: Forbidden for url: https://api.devin.ai/v3/organizations/org-6e8ba024cc5b404b96991d3474127d53/sessions/afe423ad910949ac9c42048b08c72630
+2026-03-20 08:51:16,826 - ERROR - Orchestration failed: 403 Client Error: Forbidden for url: https://api.devin.ai/v3/organizations/org-6e8ba024cc5b404b96991d3474127d53/sessions/afe423ad910949ac9c42048b08c72630
+2026-03-20 08:51:16,826 - ERROR - Error type: HTTPError
+2026-03-20 08:51:16,826 - CRITICAL - Fatal error: 403 Client Error: Forbidden for url: https://api.devin.ai/v3/organizations/org-6e8ba024cc5b404b96991d3474127d53/sessions/afe423ad910949ac9c42048b08c72630
+2026-03-20 08:51:53,144 - INFO - ---- START DEVIN ORCHESTRATION ----
+2026-03-20 08:51:53,144 - INFO - Using playbook ID: playbook-dd0e0d6d68d544b2852e65b5fa37198e
+2026-03-20 08:51:53,145 - INFO - Using session ID: afe423ad910949ac9c42048b08c72630
+2026-03-20 08:51:53,145 - INFO - Monitoring session lifecycle: afe423ad910949ac9c42048b08c72630
+2026-03-20 08:51:54,215 - ERROR - Error monitoring session: 403 Client Error: Forbidden for url: https://api.devin.ai/v3/organizations/org-6e8ba024cc5b404b96991d3474127d53/sessions/afe423ad910949ac9c42048b08c72630
+2026-03-20 08:51:54,216 - ERROR - Orchestration failed: 403 Client Error: Forbidden for url: https://api.devin.ai/v3/organizations/org-6e8ba024cc5b404b96991d3474127d53/sessions/afe423ad910949ac9c42048b08c72630
+2026-03-20 08:51:54,216 - ERROR - Error type: HTTPError
+2026-03-20 08:51:54,216 - CRITICAL - Fatal error: 403 Client Error: Forbidden for url: https://api.devin.ai/v3/organizations/org-6e8ba024cc5b404b96991d3474127d53/sessions/afe423ad910949ac9c42048b08c72630
+2026-03-20 08:52:16,407 - INFO - ---- START DEVIN ORCHESTRATION ----
+2026-03-20 08:52:16,408 - INFO - Using playbook ID: playbook-dd0e0d6d68d544b2852e65b5fa37198e
+2026-03-20 08:52:16,408 - INFO - Using session ID: afe423ad910949ac9c42048b08c72630
+2026-03-20 08:52:16,409 - INFO - Monitoring session lifecycle: afe423ad910949ac9c42048b08c72630
+2026-03-20 08:52:17,237 - INFO - Session monitoring status: 403
+2026-03-20 08:52:17,238 - ERROR - Session monitoring failed: {"detail":"Unauthorized"}
+2026-03-20 08:52:17,238 - ERROR - Error monitoring session: 403 Client Error: Forbidden for url: https://api.devin.ai/v3/organizations/org-6e8ba024cc5b404b96991d3474127d53/sessions/afe423ad910949ac9c42048b08c72630
+2026-03-20 08:52:17,238 - ERROR - Orchestration failed: 403 Client Error: Forbidden for url: https://api.devin.ai/v3/organizations/org-6e8ba024cc5b404b96991d3474127d53/sessions/afe423ad910949ac9c42048b08c72630
+2026-03-20 08:52:17,239 - ERROR - Error type: HTTPError
+2026-03-20 08:52:17,239 - CRITICAL - Fatal error: 403 Client Error: Forbidden for url: https://api.devin.ai/v3/organizations/org-6e8ba024cc5b404b96991d3474127d53/sessions/afe423ad910949ac9c42048b08c72630
+2026-03-20 08:58:49,651 - INFO - ---- START DEVIN ORCHESTRATION ----
+2026-03-20 08:58:49,651 - INFO - Using playbook ID: playbook-dd0e0d6d68d544b2852e65b5fa37198e
+2026-03-20 08:58:49,652 - INFO - Creating session with playbook: playbook-dd0e0d6d68d544b2852e65b5fa37198e
+2026-03-20 08:58:50,715 - INFO - Session creation status: 200
+2026-03-20 08:58:50,716 - INFO - Session creation response: {"session_id":"b47ba415abda45298c3c78207bad9c7f","url":"https://app.devin.ai/sessions/b47ba415abda45298c3c78207bad9c7f","status":"new","title":"Fraud Ring Detection Task","tags":["fraud","paysim","agent:advanced"],"playbook_id":"playbook-dd0e0d6d68d544b2852e65b5fa37198e","user_id":"google-oauth2|104575584322666593814","org_id":"org-6e8ba024cc5b404b96991d3474127d53","created_at":1773977329,"updated_at":1773977329,"is_archived":false,"acus_consumed":0.0,"pull_requests":[],"is_advanced":true,"parent_session_id":null,"child_session_ids":[],"service_user_id":"service-user-a89c5ac56ecd4774a32ce74e43950e58","structured_output":null,"status_detail":null}
+2026-03-20 08:58:50,717 - INFO - Session created successfully: b47ba415abda45298c3c78207bad9c7f
+2026-03-20 08:58:50,717 - INFO - Using session ID: b47ba415abda45298c3c78207bad9c7f
+2026-03-20 08:58:50,718 - INFO - Monitoring session lifecycle: b47ba415abda45298c3c78207bad9c7f
+2026-03-20 08:58:51,501 - INFO - Session monitoring status: 403
+2026-03-20 08:58:51,502 - ERROR - Session monitoring failed: {"detail":"Unauthorized"}
+2026-03-20 08:58:51,502 - ERROR - Error monitoring session: 403 Client Error: Forbidden for url: https://api.devin.ai/v3/organizations/org-6e8ba024cc5b404b96991d3474127d53/sessions/b47ba415abda45298c3c78207bad9c7f
+2026-03-20 08:58:51,503 - ERROR - Orchestration failed: 403 Client Error: Forbidden for url: https://api.devin.ai/v3/organizations/org-6e8ba024cc5b404b96991d3474127d53/sessions/b47ba415abda45298c3c78207bad9c7f
+2026-03-20 08:58:51,503 - ERROR - Error type: HTTPError
+2026-03-20 08:58:51,504 - CRITICAL - Fatal error: 403 Client Error: Forbidden for url: https://api.devin.ai/v3/organizations/org-6e8ba024cc5b404b96991d3474127d53/sessions/b47ba415abda45298c3c78207bad9c7f
+2026-03-20 08:59:24,169 - INFO - ---- START DEVIN ORCHESTRATION ----
+2026-03-20 08:59:24,170 - INFO - Using playbook ID: playbook-dd0e0d6d68d544b2852e65b5fa37198e
+2026-03-20 08:59:24,170 - INFO - Using session ID: b47ba415abda45298c3c78207bad9c7f
+2026-03-20 08:59:24,170 - INFO - Monitoring session lifecycle: b47ba415abda45298c3c78207bad9c7f
+2026-03-20 08:59:25,025 - INFO - Session monitoring status: 403
+2026-03-20 08:59:25,026 - ERROR - Session monitoring failed: {"detail":"Unauthorized"}
+2026-03-20 08:59:25,026 - ERROR - Error monitoring session: 403 Client Error: Forbidden for url: https://api.devin.ai/v3/organizations/org-6e8ba024cc5b404b96991d3474127d53/sessions/b47ba415abda45298c3c78207bad9c7f
+2026-03-20 08:59:25,026 - ERROR - Orchestration failed: 403 Client Error: Forbidden for url: https://api.devin.ai/v3/organizations/org-6e8ba024cc5b404b96991d3474127d53/sessions/b47ba415abda45298c3c78207bad9c7f
+2026-03-20 08:59:25,027 - ERROR - Error type: HTTPError
+2026-03-20 08:59:25,027 - CRITICAL - Fatal error: 403 Client Error: Forbidden for url: https://api.devin.ai/v3/organizations/org-6e8ba024cc5b404b96991d3474127d53/sessions/b47ba415abda45298c3c78207bad9c7f
+2026-03-20 09:00:03,328 - INFO - ---- START DEVIN ORCHESTRATION ----
+2026-03-20 09:00:03,328 - INFO - Using playbook ID: playbook-dd0e0d6d68d544b2852e65b5fa37198e
+2026-03-20 09:00:03,329 - INFO - Using session ID: b47ba415abda45298c3c78207bad9c7f
+2026-03-20 09:00:03,330 - INFO - Monitoring session lifecycle: b47ba415abda45298c3c78207bad9c7f
+2026-03-20 09:00:04,172 - INFO - Session monitoring status: 403
+2026-03-20 09:00:04,173 - ERROR - Session monitoring failed: {"detail":"Unauthorized"}
+2026-03-20 09:00:04,173 - ERROR - Error monitoring session: 403 Client Error: Forbidden for url: https://api.devin.ai/v3/organizations/org-6e8ba024cc5b404b96991d3474127d53/sessions/b47ba415abda45298c3c78207bad9c7f
+2026-03-20 09:00:04,174 - ERROR - Orchestration failed: 403 Client Error: Forbidden for url: https://api.devin.ai/v3/organizations/org-6e8ba024cc5b404b96991d3474127d53/sessions/b47ba415abda45298c3c78207bad9c7f
+2026-03-20 09:00:04,174 - ERROR - Error type: HTTPError
+2026-03-20 09:00:04,174 - CRITICAL - Fatal error: 403 Client Error: Forbidden for url: https://api.devin.ai/v3/organizations/org-6e8ba024cc5b404b96991d3474127d53/sessions/b47ba415abda45298c3c78207bad9c7f
+2026-03-20 09:02:04,420 - INFO - ---- START DEVIN ORCHESTRATION ----
+2026-03-20 09:02:04,421 - INFO - Using playbook ID: playbook-dd0e0d6d68d544b2852e65b5fa37198e
+2026-03-20 09:02:04,422 - INFO - Using session ID: b47ba415abda45298c3c78207bad9c7f
+2026-03-20 09:02:04,422 - INFO - Monitoring session via LIST endpoint: b47ba415abda45298c3c78207bad9c7f
+2026-03-20 09:02:04,422 - INFO - Searching for session b47ba415abda45298c3c78207bad9c7f in sessions list
+2026-03-20 09:02:05,255 - INFO - Sessions list status: 200
+2026-03-20 09:02:05,255 - INFO - Found 15 sessions in list
+2026-03-20 09:02:05,256 - INFO - Found session b47ba415abda45298c3c78207bad9c7f in list
+2026-03-20 09:02:05,256 - INFO - Status: running | ACUs: 0.318820951196875 | Updated: 1773977351
+2026-03-20 09:02:15,257 - INFO - Searching for session b47ba415abda45298c3c78207bad9c7f in sessions list
+2026-03-20 09:03:16,208 - INFO - Sessions list status: 504
+2026-03-20 09:03:16,209 - ERROR - Sessions list failed: <html>
+<head><title>504 Gateway Time-out</title></head>
+<body>
+<center><h1>504 Gateway Time-out</h1></center>
+</body>
+</html>
+
+2026-03-20 09:03:16,210 - WARNING - Session not found in list, retrying...
+2026-03-20 09:03:21,210 - INFO - Searching for session b47ba415abda45298c3c78207bad9c7f in sessions list
+2026-03-20 09:03:22,299 - INFO - Sessions list status: 200
+2026-03-20 09:03:22,299 - INFO - Found 15 sessions in list
+2026-03-20 09:03:22,299 - INFO - Found session b47ba415abda45298c3c78207bad9c7f in list
+2026-03-20 09:03:22,300 - INFO - Status: running | ACUs: 0.43625658247858795 | Updated: 1773977351
+2026-03-20 09:03:32,300 - INFO - Searching for session b47ba415abda45298c3c78207bad9c7f in sessions list
+2026-03-20 09:03:33,112 - INFO - Sessions list status: 200
+2026-03-20 09:03:33,113 - INFO - Found 15 sessions in list
+2026-03-20 09:03:33,114 - INFO - Found session b47ba415abda45298c3c78207bad9c7f in list
+2026-03-20 09:03:33,114 - INFO - Status: running | ACUs: 0.453375515778588 | Updated: 1773977351
+2026-03-20 09:03:43,115 - INFO - Searching for session b47ba415abda45298c3c78207bad9c7f in sessions list
+2026-03-20 09:03:44,062 - INFO - Sessions list status: 200
+2026-03-20 09:03:44,062 - INFO - Found 15 sessions in list
+2026-03-20 09:03:44,063 - INFO - Found session b47ba415abda45298c3c78207bad9c7f in list
+2026-03-20 09:03:44,063 - INFO - Status: running | ACUs: 0.453375515778588 | Updated: 1773977622
+2026-03-20 09:03:54,063 - INFO - Searching for session b47ba415abda45298c3c78207bad9c7f in sessions list
+2026-03-20 09:03:55,035 - INFO - Sessions list status: 200
+2026-03-20 09:03:55,035 - INFO - Found 15 sessions in list
+2026-03-20 09:03:55,035 - INFO - Found session b47ba415abda45298c3c78207bad9c7f in list
+2026-03-20 09:03:55,036 - INFO - Status: running | ACUs: 0.453375515778588 | Updated: 1773977622
+2026-03-20 09:04:05,036 - INFO - Searching for session b47ba415abda45298c3c78207bad9c7f in sessions list
+2026-03-20 09:04:05,987 - INFO - Sessions list status: 200
+2026-03-20 09:04:05,987 - INFO - Found 15 sessions in list
+2026-03-20 09:04:05,988 - INFO - Found session b47ba415abda45298c3c78207bad9c7f in list
+2026-03-20 09:04:05,988 - INFO - Status: running | ACUs: 0.453375515778588 | Updated: 1773977622
+2026-03-20 09:04:15,988 - INFO - Searching for session b47ba415abda45298c3c78207bad9c7f in sessions list
+2026-03-20 09:04:16,987 - INFO - Sessions list status: 200
+2026-03-20 09:04:16,988 - INFO - Found 15 sessions in list
+2026-03-20 09:04:16,988 - INFO - Found session b47ba415abda45298c3c78207bad9c7f in list
+2026-03-20 09:04:16,989 - INFO - Status: running | ACUs: 0.453375515778588 | Updated: 1773977622
+2026-03-20 09:04:26,989 - INFO - Searching for session b47ba415abda45298c3c78207bad9c7f in sessions list
+2026-03-20 09:04:27,815 - INFO - Sessions list status: 200
+2026-03-20 09:04:27,816 - INFO - Found 15 sessions in list
+2026-03-20 09:04:27,816 - INFO - Found session b47ba415abda45298c3c78207bad9c7f in list
+2026-03-20 09:04:27,817 - INFO - Status: running | ACUs: 0.453375515778588 | Updated: 1773977622
+2026-03-20 09:04:37,818 - INFO - Searching for session b47ba415abda45298c3c78207bad9c7f in sessions list
+2026-03-20 09:04:38,902 - INFO - Sessions list status: 200
+2026-03-20 09:04:38,902 - INFO - Found 15 sessions in list
+2026-03-20 09:04:38,902 - INFO - Found session b47ba415abda45298c3c78207bad9c7f in list
+2026-03-20 09:04:38,903 - INFO - Status: running | ACUs: 0.4624076599758102 | Updated: 1773977622
+2026-03-20 09:04:48,903 - INFO - Searching for session b47ba415abda45298c3c78207bad9c7f in sessions list
+2026-03-20 09:04:52,056 - INFO - Sessions list status: 200
+2026-03-20 09:04:52,057 - INFO - Found 15 sessions in list
+2026-03-20 09:04:52,057 - INFO - Found session b47ba415abda45298c3c78207bad9c7f in list
+2026-03-20 09:04:52,058 - INFO - Status: running | ACUs: 0.4624076599758102 | Updated: 1773977622
+2026-03-20 09:05:02,059 - INFO - Searching for session b47ba415abda45298c3c78207bad9c7f in sessions list
+2026-03-20 09:05:02,869 - INFO - Sessions list status: 200
+2026-03-20 09:05:02,870 - INFO - Found 15 sessions in list
+2026-03-20 09:05:02,870 - INFO - Found session b47ba415abda45298c3c78207bad9c7f in list
+2026-03-20 09:05:02,870 - INFO - Status: running | ACUs: 0.4624076599758102 | Updated: 1773977622
+2026-03-20 09:05:12,871 - INFO - Searching for session b47ba415abda45298c3c78207bad9c7f in sessions list
+2026-03-20 09:05:13,767 - INFO - Sessions list status: 200
+2026-03-20 09:05:13,768 - INFO - Found 15 sessions in list
+2026-03-20 09:05:13,768 - INFO - Found session b47ba415abda45298c3c78207bad9c7f in list
+2026-03-20 09:05:13,768 - INFO - Status: running | ACUs: 0.5167220830758101 | Updated: 1773977622
+2026-03-20 09:05:23,769 - INFO - Searching for session b47ba415abda45298c3c78207bad9c7f in sessions list
+2026-03-20 09:05:25,710 - INFO - Sessions list status: 200
+2026-03-20 09:05:25,711 - INFO - Found 15 sessions in list
+2026-03-20 09:05:25,712 - INFO - Found session b47ba415abda45298c3c78207bad9c7f in list
+2026-03-20 09:05:25,712 - INFO - Status: running | ACUs: 0.5732342044758102 | Updated: 1773977718
+2026-03-20 09:05:35,713 - INFO - Searching for session b47ba415abda45298c3c78207bad9c7f in sessions list
+2026-03-20 09:05:36,658 - INFO - Sessions list status: 200
+2026-03-20 09:05:36,658 - INFO - Found 15 sessions in list
+2026-03-20 09:05:36,658 - INFO - Found session b47ba415abda45298c3c78207bad9c7f in list
+2026-03-20 09:05:36,659 - INFO - Status: running | ACUs: 0.6120260071758102 | Updated: 1773977718
+2026-03-20 09:05:46,659 - INFO - Searching for session b47ba415abda45298c3c78207bad9c7f in sessions list
+2026-03-20 09:05:47,559 - INFO - Sessions list status: 200
+2026-03-20 09:05:47,559 - INFO - Found 15 sessions in list
+2026-03-20 09:05:47,559 - INFO - Found session b47ba415abda45298c3c78207bad9c7f in list
+2026-03-20 09:05:47,560 - INFO - Status: running | ACUs: 0.6284810842758102 | Updated: 1773977718
+2026-03-20 09:05:57,560 - INFO - Searching for session b47ba415abda45298c3c78207bad9c7f in sessions list
+2026-03-20 09:05:58,668 - INFO - Sessions list status: 200
+2026-03-20 09:05:58,668 - INFO - Found 15 sessions in list
+2026-03-20 09:05:58,669 - INFO - Found session b47ba415abda45298c3c78207bad9c7f in list
+2026-03-20 09:05:58,669 - INFO - Status: running | ACUs: 0.6841808647758102 | Updated: 1773977718
+2026-03-20 09:06:08,670 - INFO - Searching for session b47ba415abda45298c3c78207bad9c7f in sessions list
+2026-03-20 09:06:09,624 - INFO - Sessions list status: 200
+2026-03-20 09:06:09,624 - INFO - Found 15 sessions in list
+2026-03-20 09:06:09,625 - INFO - Found session b47ba415abda45298c3c78207bad9c7f in list
+2026-03-20 09:06:09,625 - INFO - Status: running | ACUs: 0.7259840863758102 | Updated: 1773977763
+2026-03-20 09:06:09,625 - INFO - PR created: https://github.com/aiwarrior-23/devin-financial-transactions-demo/pull/4
+2026-03-20 09:06:09,625 - INFO - Starting to poll session b47ba415abda45298c3c78207bad9c7f for PR (timeout: 900s)
+2026-03-20 09:06:10,598 - INFO - Session poll status: 403
+2026-03-20 09:06:10,598 - ERROR - Session poll failed: {"detail":"Unauthorized"}
+2026-03-20 09:06:10,599 - ERROR - HTTP Error polling session: 403 Client Error: Forbidden for url: https://api.devin.ai/v3/organizations/org-6e8ba024cc5b404b96991d3474127d53/sessions/b47ba415abda45298c3c78207bad9c7f
+2026-03-20 09:06:10,599 - ERROR - Response status: 403
+2026-03-20 09:06:10,599 - ERROR - Response text: {"detail":"Unauthorized"}
+2026-03-20 09:06:10,599 - ERROR - Request URL: https://api.devin.ai/v3/organizations/org-6e8ba024cc5b404b96991d3474127d53/sessions/b47ba415abda45298c3c78207bad9c7f
+2026-03-20 09:06:10,600 - ERROR - Orchestration failed: 403 Client Error: Forbidden for url: https://api.devin.ai/v3/organizations/org-6e8ba024cc5b404b96991d3474127d53/sessions/b47ba415abda45298c3c78207bad9c7f
+2026-03-20 09:06:10,600 - ERROR - Error type: HTTPError
+2026-03-20 09:06:10,600 - CRITICAL - Fatal error: 403 Client Error: Forbidden for url: https://api.devin.ai/v3/organizations/org-6e8ba024cc5b404b96991d3474127d53/sessions/b47ba415abda45298c3c78207bad9c7f
+2026-03-20 09:07:12,584 - INFO - ---- START DEVIN ORCHESTRATION ----
+2026-03-20 09:07:12,585 - INFO - Using playbook ID: playbook-dd0e0d6d68d544b2852e65b5fa37198e
+2026-03-20 09:07:12,585 - INFO - Using session ID: b47ba415abda45298c3c78207bad9c7f
+2026-03-20 09:07:12,585 - INFO - Monitoring session via LIST endpoint: b47ba415abda45298c3c78207bad9c7f
+2026-03-20 09:07:12,586 - INFO - Searching for session b47ba415abda45298c3c78207bad9c7f in sessions list
+2026-03-20 09:07:13,476 - INFO - Sessions list status: 200
+2026-03-20 09:07:13,477 - INFO - Found 15 sessions in list
+2026-03-20 09:07:13,477 - INFO - Found session b47ba415abda45298c3c78207bad9c7f in list
+2026-03-20 09:07:13,477 - INFO - Status: running | ACUs: 0.7350197288204862 | Updated: 1773977772
+2026-03-20 09:07:13,478 - INFO - PR created: https://github.com/aiwarrior-23/devin-financial-transactions-demo/pull/4
+2026-03-20 09:07:13,478 - INFO - Starting to poll session b47ba415abda45298c3c78207bad9c7f for PR (timeout: 900s)
+2026-03-20 09:07:14,273 - INFO - Session poll status: 403
+2026-03-20 09:07:14,274 - ERROR - Session poll failed: {"detail":"Unauthorized"}
+2026-03-20 09:07:14,274 - ERROR - HTTP Error polling session: 403 Client Error: Forbidden for url: https://api.devin.ai/v3/organizations/org-6e8ba024cc5b404b96991d3474127d53/sessions/b47ba415abda45298c3c78207bad9c7f
+2026-03-20 09:07:14,274 - ERROR - Response status: 403
+2026-03-20 09:07:14,274 - ERROR - Response text: {"detail":"Unauthorized"}
+2026-03-20 09:07:14,274 - ERROR - Request URL: https://api.devin.ai/v3/organizations/org-6e8ba024cc5b404b96991d3474127d53/sessions/b47ba415abda45298c3c78207bad9c7f
+2026-03-20 09:07:14,274 - ERROR - Orchestration failed: 403 Client Error: Forbidden for url: https://api.devin.ai/v3/organizations/org-6e8ba024cc5b404b96991d3474127d53/sessions/b47ba415abda45298c3c78207bad9c7f
+2026-03-20 09:07:14,275 - ERROR - Error type: HTTPError
+2026-03-20 09:07:14,275 - CRITICAL - Fatal error: 403 Client Error: Forbidden for url: https://api.devin.ai/v3/organizations/org-6e8ba024cc5b404b96991d3474127d53/sessions/b47ba415abda45298c3c78207bad9c7f
+2026-03-20 09:08:04,639 - INFO - ---- START DEVIN ORCHESTRATION ----
+2026-03-20 09:08:04,640 - INFO - Using playbook ID: playbook-dd0e0d6d68d544b2852e65b5fa37198e
+2026-03-20 09:08:04,640 - INFO - Using session ID: b47ba415abda45298c3c78207bad9c7f
+2026-03-20 09:08:04,640 - INFO - Monitoring session via LIST endpoint: b47ba415abda45298c3c78207bad9c7f
+2026-03-20 09:08:04,640 - INFO - Searching for session b47ba415abda45298c3c78207bad9c7f in sessions list
+2026-03-20 09:08:07,089 - INFO - Sessions list status: 200
+2026-03-20 09:08:07,089 - INFO - Found 15 sessions in list
+2026-03-20 09:08:07,089 - INFO - Found session b47ba415abda45298c3c78207bad9c7f in list
+2026-03-20 09:08:07,090 - INFO - Status: running | ACUs: 0.7350197288204862 | Updated: 1773977772
+2026-03-20 09:08:07,090 - INFO - PR created: https://github.com/aiwarrior-23/devin-financial-transactions-demo/pull/4
+2026-03-20 09:08:07,091 - INFO - Monitoring session via LIST endpoint: b47ba415abda45298c3c78207bad9c7f
+2026-03-20 09:08:07,091 - INFO - Searching for session b47ba415abda45298c3c78207bad9c7f in sessions list
+2026-03-20 09:08:07,916 - INFO - Sessions list status: 200
+2026-03-20 09:08:07,916 - INFO - Found 15 sessions in list
+2026-03-20 09:08:07,917 - INFO - Found session b47ba415abda45298c3c78207bad9c7f in list
+2026-03-20 09:08:07,918 - INFO - Status: running | ACUs: 0.7350197288204862 | Updated: 1773977772
+2026-03-20 09:08:07,918 - INFO - PR created: https://github.com/aiwarrior-23/devin-financial-transactions-demo/pull/4
+2026-03-20 09:08:07,918 - INFO - Archiving session: b47ba415abda45298c3c78207bad9c7f
+2026-03-20 09:08:08,696 - WARNING - Archive failed with status 403: {"detail":"Unauthorized"}
+2026-03-20 09:08:08,697 - INFO - ---- DEVIN ORCHESTRATION COMPLETED ----
+2026-03-20 09:08:45,667 - INFO - ---- START DEVIN ORCHESTRATION ----
+2026-03-20 09:08:45,667 - INFO - Using playbook ID: playbook-dd0e0d6d68d544b2852e65b5fa37198e
+2026-03-20 09:08:45,668 - INFO - Using session ID: b47ba415abda45298c3c78207bad9c7f
+2026-03-20 09:08:45,668 - INFO - Monitoring session via LIST endpoint: b47ba415abda45298c3c78207bad9c7f
+2026-03-20 09:08:45,668 - INFO - Searching for session b47ba415abda45298c3c78207bad9c7f in sessions list
+2026-03-20 09:08:46,508 - INFO - Sessions list status: 200
+2026-03-20 09:08:46,508 - INFO - Found 15 sessions in list
+2026-03-20 09:08:46,508 - INFO - Found session b47ba415abda45298c3c78207bad9c7f in list
+2026-03-20 09:08:46,509 - INFO - Status: running | ACUs: 0.7440574956954861 | Updated: 1773977772
+2026-03-20 09:08:46,509 - INFO - PR created: https://github.com/aiwarrior-23/devin-financial-transactions-demo/pull/4
+2026-03-20 09:08:46,510 - INFO - Monitoring session via LIST endpoint: b47ba415abda45298c3c78207bad9c7f
+2026-03-20 09:08:46,510 - INFO - Searching for session b47ba415abda45298c3c78207bad9c7f in sessions list
+2026-03-20 09:08:47,324 - INFO - Sessions list status: 200
+2026-03-20 09:08:47,325 - INFO - Found 15 sessions in list
+2026-03-20 09:08:47,326 - INFO - Found session b47ba415abda45298c3c78207bad9c7f in list
+2026-03-20 09:08:47,326 - INFO - Status: running | ACUs: 0.7440574956954861 | Updated: 1773977772
+2026-03-20 09:08:47,327 - INFO - PR created: https://github.com/aiwarrior-23/devin-financial-transactions-demo/pull/4
+2026-03-20 09:08:47,327 - INFO - Skipping archive for session b47ba415abda45298c3c78207bad9c7f due to API permissions
+2026-03-20 09:08:47,327 - INFO - Session will auto-expire or can be archived manually in Devin UI
+2026-03-20 09:08:47,327 - INFO - ---- DEVIN ORCHESTRATION COMPLETED ----
+2026-03-20 09:09:39,605 - INFO - ---- START DEVIN ORCHESTRATION ----
+2026-03-20 09:09:39,606 - INFO - Using playbook ID: playbook-dd0e0d6d68d544b2852e65b5fa37198e
+2026-03-20 09:09:39,606 - INFO - Using session ID: b47ba415abda45298c3c78207bad9c7f
+2026-03-20 09:09:39,607 - INFO - Monitoring session via LIST endpoint: b47ba415abda45298c3c78207bad9c7f
+2026-03-20 09:09:39,607 - INFO - Searching for session b47ba415abda45298c3c78207bad9c7f in sessions list
+2026-03-20 09:09:41,612 - INFO - Sessions list status: 200
+2026-03-20 09:09:41,613 - INFO - Found 15 sessions in list
+2026-03-20 09:09:41,613 - INFO - Found session b47ba415abda45298c3c78207bad9c7f in list
+2026-03-20 09:09:41,613 - INFO - Status: running | ACUs: 0.7440574956954861 | Updated: 1773977772
+2026-03-20 09:09:41,614 - INFO - PR created: https://github.com/aiwarrior-23/devin-financial-transactions-demo/pull/4
+2026-03-20 09:09:41,614 - INFO - Monitoring session via LIST endpoint: b47ba415abda45298c3c78207bad9c7f
+2026-03-20 09:09:41,614 - INFO - Searching for session b47ba415abda45298c3c78207bad9c7f in sessions list
+2026-03-20 09:09:42,653 - INFO - Sessions list status: 200
+2026-03-20 09:09:42,653 - INFO - Found 15 sessions in list
+2026-03-20 09:09:42,653 - INFO - Found session b47ba415abda45298c3c78207bad9c7f in list
+2026-03-20 09:09:42,654 - INFO - Status: running | ACUs: 0.7440574956954861 | Updated: 1773977772
+2026-03-20 09:09:42,654 - INFO - PR created: https://github.com/aiwarrior-23/devin-financial-transactions-demo/pull/4
+2026-03-20 09:09:42,654 - INFO - Terminating session: b47ba415abda45298c3c78207bad9c7f
+2026-03-20 09:09:43,453 - WARNING - Terminate failed with status 404: {"detail":"Not Found"}
+2026-03-20 09:09:43,454 - INFO - ---- DEVIN ORCHESTRATION COMPLETED ----
+2026-03-20 09:11:35,270 - INFO - ---- START DEVIN ORCHESTRATION ----
+2026-03-20 09:11:35,270 - INFO - Using playbook ID: playbook-dd0e0d6d68d544b2852e65b5fa37198e
+2026-03-20 09:11:35,270 - INFO - Using session ID: b47ba415abda45298c3c78207bad9c7f
+2026-03-20 09:11:35,271 - INFO - Monitoring session via LIST endpoint: b47ba415abda45298c3c78207bad9c7f
+2026-03-20 09:11:35,271 - INFO - Searching for session b47ba415abda45298c3c78207bad9c7f in sessions list
+2026-03-20 09:11:36,088 - INFO - Sessions list status: 200
+2026-03-20 09:11:36,089 - INFO - Found 15 sessions in list
+2026-03-20 09:11:36,089 - INFO - Found session b47ba415abda45298c3c78207bad9c7f in list
+2026-03-20 09:11:36,090 - INFO - Status: running | ACUs: 0.7530948120239583 | Updated: 1773977993
+2026-03-20 09:11:36,090 - INFO - PR created: https://github.com/aiwarrior-23/devin-financial-transactions-demo/pull/4
+2026-03-20 09:11:36,090 - INFO - Monitoring session via LIST endpoint: b47ba415abda45298c3c78207bad9c7f
+2026-03-20 09:11:36,091 - INFO - Searching for session b47ba415abda45298c3c78207bad9c7f in sessions list
+2026-03-20 09:11:36,932 - INFO - Sessions list status: 200
+2026-03-20 09:11:36,933 - INFO - Found 15 sessions in list
+2026-03-20 09:11:36,933 - INFO - Found session b47ba415abda45298c3c78207bad9c7f in list
+2026-03-20 09:11:36,933 - INFO - Status: running | ACUs: 0.7530948120239583 | Updated: 1773977993
+2026-03-20 09:11:36,934 - INFO - PR created: https://github.com/aiwarrior-23/devin-financial-transactions-demo/pull/4
+2026-03-20 09:11:36,934 - INFO - Attempting to archive session: b47ba415abda45298c3c78207bad9c7f
+2026-03-20 09:11:37,749 - INFO - Archive response status: 403
+2026-03-20 09:11:37,750 - INFO - Archive response text: {"detail":"Unauthorized"}
+2026-03-20 09:11:37,751 - WARNING - Archive failed with status 403: {"detail":"Unauthorized"}
+2026-03-20 09:11:37,751 - INFO - Session will auto-expire or can be managed manually in Devin UI
+2026-03-20 09:11:37,751 - INFO - ---- DEVIN ORCHESTRATION COMPLETED ----

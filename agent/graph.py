@@ -7,6 +7,7 @@ The graph follows this flow:
 """
 
 from langgraph.graph import END, StateGraph
+from langgraph.graph.state import CompiledStateGraph
 
 from agent.llm_summary import llm_summary_node
 from agent.nodes import (
@@ -21,7 +22,7 @@ from agent.report_generator import generate_report_node
 from agent.state import AgentState
 
 
-def build_graph() -> StateGraph:
+def build_graph() -> CompiledStateGraph:
     """Build and return the compiled LangGraph workflow."""
     workflow = StateGraph(AgentState)
 

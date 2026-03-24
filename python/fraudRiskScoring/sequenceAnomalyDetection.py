@@ -28,7 +28,7 @@ import pandas as pd
 HIGH_VALUE_THRESHOLD = 10_000
 BALANCE_DRAIN_THRESHOLD = 0.95
 
-DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
+DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "data")
 INPUT_FILE = os.path.join(DATA_DIR, "Example1.csv")
 OUTPUT_FILE = os.path.join(DATA_DIR, "sequence_anomaly_report.csv")
 

@@ -14,12 +14,12 @@ import tempfile
 import pandas as pd
 import pytest
 
-# Ensure the repo root is importable
+# Ensure the python package is importable
 import sys
 
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "python"))
 
-from fraud_risk_scoring import (
+from fraudRiskScoring.fraudRiskScoring import (
     assign_risk_level,
     compute_amount_risk,
     compute_balance_anomaly_risk,

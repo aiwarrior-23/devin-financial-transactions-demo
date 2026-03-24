@@ -6,6 +6,8 @@ computes a risk score (0-100), assigns a risk category (LOW, MEDIUM, HIGH),
 and generates a transaction-level risk report.
 """
 
+import os
+
 import pandas as pd
 
 
@@ -286,8 +288,8 @@ def generate_risk_report(df: pd.DataFrame) -> pd.DataFrame:
 
 def main() -> None:
     """Main entry point for the fraud risk scoring system."""
-    input_path = "data/Example1.csv"
-    output_path = "data/fraud_risk_report.csv"
+    input_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "data", "Example1.csv")
+    output_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "data", "fraud_risk_report.csv")
 
     print("Loading dataset from '{}'...".format(input_path))
     df = load_dataset(input_path)

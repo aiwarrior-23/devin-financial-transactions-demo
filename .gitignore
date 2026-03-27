@@ -1,1 +1,3 @@
 __pycache__/
+agent/.env
+vulnerability_agent_app/.env

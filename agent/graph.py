@@ -26,13 +26,13 @@ def build_graph() -> StateGraph:
     workflow = StateGraph(AgentState)
 
     # Add nodes
-    workflow.add_node("fetch_data", fetch_data_node)
-    workflow.add_node("traffic_analysis", traffic_analysis_node)
-    workflow.add_node("success_failure", success_failure_node)
-    workflow.add_node("performance_metrics", performance_metrics_node)
-    workflow.add_node("time_based_insights", time_based_insights_node)
-    workflow.add_node("reliability_insights", reliability_insights_node)
-    workflow.add_node("llm_summary", llm_summary_node)
+    workflow.add_node("repo_scanner", fetch_data_node)
+    workflow.add_node("vulnerability_categorization", traffic_analysis_node)
+    workflow.add_node("remediation_known", success_failure_node)
+    workflow.add_node("remediation_unknown", performance_metrics_node)
+    workflow.add_node("execute_remediation", time_based_insights_node)
+    workflow.add_node("reporting_and_notification", reliability_insights_node)
+    workflow.add_node("regression_testing", llm_summary_node)
     workflow.add_node("generate_report", generate_report_node)
 
     # Set entry point

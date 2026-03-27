@@ -1,0 +1,1027 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-03-24T05:57:25.034742+00:00",
+    "report_type": "API Metrics Analysis"
+  },
+  "traffic_analysis": {
+    "total_api_calls": 141151,
+    "daily_trend": [
+      {
+        "date": "2025-12-23",
+        "request_count": 854
+      },
+      {
+        "date": "2025-12-24",
+        "request_count": 794
+      },
+      {
+        "date": "2025-12-25",
+        "request_count": 893
+      },
+      {
+        "date": "2025-12-26",
+        "request_count": 858
+      },
+      {
+        "date": "2025-12-27",
+        "request_count": 521
+      },
+      {
+        "date": "2025-12-28",
+        "request_count": 559
+      },
+      {
+        "date": "2025-12-29",
+        "request_count": 894
+      },
+      {
+        "date": "2025-12-30",
+        "request_count": 859
+      },
+      {
+        "date": "2025-12-31",
+        "request_count": 955
+      },
+      {
+        "date": "2026-01-01",
+        "request_count": 923
+      },
+      {
+        "date": "2026-01-02",
+        "request_count": 1163
+      },
+      {
+        "date": "2026-01-03",
+        "request_count": 656
+      },
+      {
+        "date": "2026-01-04",
+        "request_count": 720
+      },
+      {
+        "date": "2026-01-05",
+        "request_count": 1095
+      },
+      {
+        "date": "2026-01-06",
+        "request_count": 1099
+      },
+      {
+        "date": "2026-01-07",
+        "request_count": 1131
+      },
+      {
+        "date": "2026-01-08",
+        "request_count": 1153
+      },
+      {
+        "date": "2026-01-09",
+        "request_count": 1232
+      },
+      {
+        "date": "2026-01-10",
+        "request_count": 766
+      },
+      {
+        "date": "2026-01-11",
+        "request_count": 711
+      },
+      {
+        "date": "2026-01-12",
+        "request_count": 1260
+      },
+      {
+        "date": "2026-01-13",
+        "request_count": 1228
+      },
+      {
+        "date": "2026-01-14",
+        "request_count": 1258
+      },
+      {
+        "date": "2026-01-15",
+        "request_count": 1333
+      },
+      {
+        "date": "2026-01-16",
+        "request_count": 1360
+      },
+      {
+        "date": "2026-01-17",
+        "request_count": 780
+      },
+      {
+        "date": "2026-01-18",
+        "request_count": 697
+      },
+      {
+        "date": "2026-01-19",
+        "request_count": 1431
+      },
+      {
+        "date": "2026-01-20",
+        "request_count": 1345
+      },
+      {
+        "date": "2026-01-21",
+        "request_count": 1458
+      },
+      {
+        "date": "2026-01-22",
+        "request_count": 1389
+      },
+      {
+        "date": "2026-01-23",
+        "request_count": 1484
+      },
+      {
+        "date": "2026-01-24",
+        "request_count": 920
+      },
+      {
+        "date": "2026-01-25",
+        "request_count": 948
+      },
+      {
+        "date": "2026-01-26",
+        "request_count": 1456
+      },
+      {
+        "date": "2026-01-27",
+        "request_count": 1715
+      },
+      {
+        "date": "2026-01-28",
+        "request_count": 1504
+      },
+      {
+        "date": "2026-01-29",
+        "request_count": 1609
+      },
+      {
+        "date": "2026-01-30",
+        "request_count": 1649
+      },
+      {
+        "date": "2026-01-31",
+        "request_count": 1008
+      },
+      {
+        "date": "2026-02-01",
+        "request_count": 999
+      },
+      {
+        "date": "2026-02-02",
+        "request_count": 1715
+      },
+      {
+        "date": "2026-02-03",
+        "request_count": 1781
+      },
+      {
+        "date": "2026-02-04",
+        "request_count": 1754
+      },
+      {
+        "date": "2026-02-05",
+        "request_count": 1710
+      },
+      {
+        "date": "2026-02-06",
+        "request_count": 1805
+      },
+      {
+        "date": "2026-02-07",
+        "request_count": 1137
+      },
+      {
+        "date": "2026-02-08",
+        "request_count": 1055
+      },
+      {
+        "date": "2026-02-09",
+        "request_count": 1833
+      },
+      {
+        "date": "2026-02-10",
+        "request_count": 1839
+      },
+      {
+        "date": "2026-02-11",
+        "request_count": 1874
+      },
+      {
+        "date": "2026-02-12",
+        "request_count": 1899
+      },
+      {
+        "date": "2026-02-13",
+        "request_count": 1904
+      },
+      {
+        "date": "2026-02-14",
+        "request_count": 1228
+      },
+      {
+        "date": "2026-02-15",
+        "request_count": 1246
+      },
+      {
+        "date": "2026-02-16",
+        "request_count": 2012
+      },
+      {
+        "date": "2026-02-17",
+        "request_count": 2108
+      },
+      {
+        "date": "2026-02-18",
+        "request_count": 1998
+      },
+      {
+        "date": "2026-02-19",
+        "request_count": 2015
+      },
+      {
+        "date": "2026-02-20",
+        "request_count": 2080
+      },
+      {
+        "date": "2026-02-21",
+        "request_count": 1313
+      },
+      {
+        "date": "2026-02-22",
+        "request_count": 1395
+      },
+      {
+        "date": "2026-02-23",
+        "request_count": 2232
+      },
+      {
+        "date": "2026-02-24",
+        "request_count": 2252
+      },
+      {
+        "date": "2026-02-25",
+        "request_count": 2219
+      },
+      {
+        "date": "2026-02-26",
+        "request_count": 2235
+      },
+      {
+        "date": "2026-02-27",
+        "request_count": 2267
+      },
+      {
+        "date": "2026-02-28",
+        "request_count": 1384
+      },
+      {
+        "date": "2026-03-01",
+        "request_count": 1396
+      },
+      {
+        "date": "2026-03-02",
+        "request_count": 2375
+      },
+      {
+        "date": "2026-03-03",
+        "request_count": 2456
+      },
+      {
+        "date": "2026-03-04",
+        "request_count": 2356
+      },
+      {
+        "date": "2026-03-05",
+        "request_count": 2361
+      },
+      {
+        "date": "2026-03-06",
+        "request_count": 2396
+      },
+      {
+        "date": "2026-03-07",
+        "request_count": 1458
+      },
+      {
+        "date": "2026-03-08",
+        "request_count": 1422
+      },
+      {
+        "date": "2026-03-09",
+        "request_count": 2474
+      },
+      {
+        "date": "2026-03-10",
+        "request_count": 2465
+      },
+      {
+        "date": "2026-03-11",
+        "request_count": 2483
+      },
+      {
+        "date": "2026-03-12",
+        "request_count": 2517
+      },
+      {
+        "date": "2026-03-13",
+        "request_count": 2453
+      },
+      {
+        "date": "2026-03-14",
+        "request_count": 1483
+      },
+      {
+        "date": "2026-03-15",
+        "request_count": 1579
+      },
+      {
+        "date": "2026-03-16",
+        "request_count": 2622
+      },
+      {
+        "date": "2026-03-17",
+        "request_count": 2619
+      },
+      {
+        "date": "2026-03-18",
+        "request_count": 2687
+      },
+      {
+        "date": "2026-03-19",
+        "request_count": 2642
+      },
+      {
+        "date": "2026-03-20",
+        "request_count": 2699
+      },
+      {
+        "date": "2026-03-21",
+        "request_count": 1657
+      },
+      {
+        "date": "2026-03-22",
+        "request_count": 1594
+      }
+    ],
+    "peak_traffic_day": "2026-03-20",
+    "peak_traffic_value": 2699,
+    "top_5_busiest_apis": [
+      {
+        "api": "payment-api/refund",
+        "total_requests": 23691
+      },
+      {
+        "api": "order-api/status",
+        "total_requests": 23655
+      },
+      {
+        "api": "user-api/profile",
+        "total_requests": 23550
+      },
+      {
+        "api": "order-api/create",
+        "total_requests": 23549
+      },
+      {
+        "api": "payment-api/pay",
+        "total_requests": 23484
+      }
+    ]
+  },
+  "success_failure_metrics": {
+    "total_success_count": 135244,
+    "total_failure_count": 5907,
+    "success_ratio_percent": 95.82,
+    "failure_rate_percent": 4.18,
+    "apis_with_highest_failure_rate": [
+      {
+        "api": "user-api/profile",
+        "failure_count": 1177,
+        "total_requests": 23550,
+        "failure_rate_percent": 5.0
+      },
+      {
+        "api": "order-api/status",
+        "failure_count": 1091,
+        "total_requests": 23655,
+        "failure_rate_percent": 4.61
+      },
+      {
+        "api": "user-api/login",
+        "failure_count": 1018,
+        "total_requests": 23222,
+        "failure_rate_percent": 4.38
+      },
+      {
+        "api": "order-api/create",
+        "failure_count": 887,
+        "total_requests": 23549,
+        "failure_rate_percent": 3.77
+      },
+      {
+        "api": "payment-api/refund",
+        "failure_count": 873,
+        "total_requests": 23691,
+        "failure_rate_percent": 3.68
+      }
+    ]
+  },
+  "performance_metrics": {
+    "avg_memory_usage_mb": 590.55,
+    "peak_memory_usage_mb": 960,
+    "traffic_memory_correlation": 0.0777
+  },
+  "time_based_insights": {
+    "day_wise_trend": [
+      {
+        "date": "2025-12-23",
+        "traffic": 854,
+        "success": 834,
+        "failure": 20
+      },
+      {
+        "date": "2025-12-24",
+        "traffic": 794,
+        "success": 772,
+        "failure": 22
+      },
+      {
+        "date": "2025-12-25",
+        "traffic": 893,
+        "success": 867,
+        "failure": 26
+      },
+      {
+        "date": "2025-12-26",
+        "traffic": 858,
+        "success": 831,
+        "failure": 27
+      },
+      {
+        "date": "2025-12-27",
+        "traffic": 521,
+        "success": 506,
+        "failure": 15
+      },
+      {
+        "date": "2025-12-28",
+        "traffic": 559,
+        "success": 549,
+        "failure": 10
+      },
+      {
+        "date": "2025-12-29",
+        "traffic": 894,
+        "success": 876,
+        "failure": 18
+      },
+      {
+        "date": "2025-12-30",
+        "traffic": 859,
+        "success": 778,
+        "failure": 81
+      },
+      {
+        "date": "2025-12-31",
+        "traffic": 955,
+        "success": 928,
+        "failure": 27
+      },
+      {
+        "date": "2026-01-01",
+        "traffic": 923,
+        "success": 903,
+        "failure": 20
+      },
+      {
+        "date": "2026-01-02",
+        "traffic": 1163,
+        "success": 1129,
+        "failure": 34
+      },
+      {
+        "date": "2026-01-03",
+        "traffic": 656,
+        "success": 642,
+        "failure": 14
+      },
+      {
+        "date": "2026-01-04",
+        "traffic": 720,
+        "success": 698,
+        "failure": 22
+      },
+      {
+        "date": "2026-01-05",
+        "traffic": 1095,
+        "success": 1064,
+        "failure": 31
+      },
+      {
+        "date": "2026-01-06",
+        "traffic": 1099,
+        "success": 1060,
+        "failure": 39
+      },
+      {
+        "date": "2026-01-07",
+        "traffic": 1131,
+        "success": 1038,
+        "failure": 93
+      },
+      {
+        "date": "2026-01-08",
+        "traffic": 1153,
+        "success": 1116,
+        "failure": 37
+      },
+      {
+        "date": "2026-01-09",
+        "traffic": 1232,
+        "success": 1194,
+        "failure": 38
+      },
+      {
+        "date": "2026-01-10",
+        "traffic": 766,
+        "success": 746,
+        "failure": 20
+      },
+      {
+        "date": "2026-01-11",
+        "traffic": 711,
+        "success": 697,
+        "failure": 14
+      },
+      {
+        "date": "2026-01-12",
+        "traffic": 1260,
+        "success": 1224,
+        "failure": 36
+      },
+      {
+        "date": "2026-01-13",
+        "traffic": 1228,
+        "success": 1085,
+        "failure": 143
+      },
+      {
+        "date": "2026-01-14",
+        "traffic": 1258,
+        "success": 1223,
+        "failure": 35
+      },
+      {
+        "date": "2026-01-15",
+        "traffic": 1333,
+        "success": 1222,
+        "failure": 111
+      },
+      {
+        "date": "2026-01-16",
+        "traffic": 1360,
+        "success": 1213,
+        "failure": 147
+      },
+      {
+        "date": "2026-01-17",
+        "traffic": 780,
+        "success": 686,
+        "failure": 94
+      },
+      {
+        "date": "2026-01-18",
+        "traffic": 697,
+        "success": 642,
+        "failure": 55
+      },
+      {
+        "date": "2026-01-19",
+        "traffic": 1431,
+        "success": 1390,
+        "failure": 41
+      },
+      {
+        "date": "2026-01-20",
+        "traffic": 1345,
+        "success": 1314,
+        "failure": 31
+      },
+      {
+        "date": "2026-01-21",
+        "traffic": 1458,
+        "success": 1403,
+        "failure": 55
+      },
+      {
+        "date": "2026-01-22",
+        "traffic": 1389,
+        "success": 1348,
+        "failure": 41
+      },
+      {
+        "date": "2026-01-23",
+        "traffic": 1484,
+        "success": 1440,
+        "failure": 44
+      },
+      {
+        "date": "2026-01-24",
+        "traffic": 920,
+        "success": 889,
+        "failure": 31
+      },
+      {
+        "date": "2026-01-25",
+        "traffic": 948,
+        "success": 872,
+        "failure": 76
+      },
+      {
+        "date": "2026-01-26",
+        "traffic": 1456,
+        "success": 1411,
+        "failure": 45
+      },
+      {
+        "date": "2026-01-27",
+        "traffic": 1715,
+        "success": 1660,
+        "failure": 55
+      },
+      {
+        "date": "2026-01-28",
+        "traffic": 1504,
+        "success": 1464,
+        "failure": 40
+      },
+      {
+        "date": "2026-01-29",
+        "traffic": 1609,
+        "success": 1479,
+        "failure": 130
+      },
+      {
+        "date": "2026-01-30",
+        "traffic": 1649,
+        "success": 1607,
+        "failure": 42
+      },
+      {
+        "date": "2026-01-31",
+        "traffic": 1008,
+        "success": 987,
+        "failure": 21
+      },
+      {
+        "date": "2026-02-01",
+        "traffic": 999,
+        "success": 971,
+        "failure": 28
+      },
+      {
+        "date": "2026-02-02",
+        "traffic": 1715,
+        "success": 1668,
+        "failure": 47
+      },
+      {
+        "date": "2026-02-03",
+        "traffic": 1781,
+        "success": 1615,
+        "failure": 166
+      },
+      {
+        "date": "2026-02-04",
+        "traffic": 1754,
+        "success": 1706,
+        "failure": 48
+      },
+      {
+        "date": "2026-02-05",
+        "traffic": 1710,
+        "success": 1657,
+        "failure": 53
+      },
+      {
+        "date": "2026-02-06",
+        "traffic": 1805,
+        "success": 1765,
+        "failure": 40
+      },
+      {
+        "date": "2026-02-07",
+        "traffic": 1137,
+        "success": 1052,
+        "failure": 85
+      },
+      {
+        "date": "2026-02-08",
+        "traffic": 1055,
+        "success": 1031,
+        "failure": 24
+      },
+      {
+        "date": "2026-02-09",
+        "traffic": 1833,
+        "success": 1784,
+        "failure": 49
+      },
+      {
+        "date": "2026-02-10",
+        "traffic": 1839,
+        "success": 1683,
+        "failure": 156
+      },
+      {
+        "date": "2026-02-11",
+        "traffic": 1874,
+        "success": 1834,
+        "failure": 40
+      },
+      {
+        "date": "2026-02-12",
+        "traffic": 1899,
+        "success": 1839,
+        "failure": 60
+      },
+      {
+        "date": "2026-02-13",
+        "traffic": 1904,
+        "success": 1614,
+        "failure": 290
+      },
+      {
+        "date": "2026-02-14",
+        "traffic": 1228,
+        "success": 1158,
+        "failure": 70
+      },
+      {
+        "date": "2026-02-15",
+        "traffic": 1246,
+        "success": 1214,
+        "failure": 32
+      },
+      {
+        "date": "2026-02-16",
+        "traffic": 2012,
+        "success": 1945,
+        "failure": 67
+      },
+      {
+        "date": "2026-02-17",
+        "traffic": 2108,
+        "success": 1979,
+        "failure": 129
+      },
+      {
+        "date": "2026-02-18",
+        "traffic": 1998,
+        "success": 1845,
+        "failure": 153
+      },
+      {
+        "date": "2026-02-19",
+        "traffic": 2015,
+        "success": 1894,
+        "failure": 121
+      },
+      {
+        "date": "2026-02-20",
+        "traffic": 2080,
+        "success": 2003,
+        "failure": 77
+      },
+      {
+        "date": "2026-02-21",
+        "traffic": 1313,
+        "success": 1278,
+        "failure": 35
+      },
+      {
+        "date": "2026-02-22",
+        "traffic": 1395,
+        "success": 1365,
+        "failure": 30
+      },
+      {
+        "date": "2026-02-23",
+        "traffic": 2232,
+        "success": 2083,
+        "failure": 149
+      },
+      {
+        "date": "2026-02-24",
+        "traffic": 2252,
+        "success": 2192,
+        "failure": 60
+      },
+      {
+        "date": "2026-02-25",
+        "traffic": 2219,
+        "success": 2144,
+        "failure": 75
+      },
+      {
+        "date": "2026-02-26",
+        "traffic": 2235,
+        "success": 2185,
+        "failure": 50
+      },
+      {
+        "date": "2026-02-27",
+        "traffic": 2267,
+        "success": 2134,
+        "failure": 133
+      },
+      {
+        "date": "2026-02-28",
+        "traffic": 1384,
+        "success": 1340,
+        "failure": 44
+      },
+      {
+        "date": "2026-03-01",
+        "traffic": 1396,
+        "success": 1355,
+        "failure": 41
+      },
+      {
+        "date": "2026-03-02",
+        "traffic": 2375,
+        "success": 2305,
+        "failure": 70
+      },
+      {
+        "date": "2026-03-03",
+        "traffic": 2456,
+        "success": 2381,
+        "failure": 75
+      },
+      {
+        "date": "2026-03-04",
+        "traffic": 2356,
+        "success": 2218,
+        "failure": 138
+      },
+      {
+        "date": "2026-03-05",
+        "traffic": 2361,
+        "success": 2265,
+        "failure": 96
+      },
+      {
+        "date": "2026-03-06",
+        "traffic": 2396,
+        "success": 2344,
+        "failure": 52
+      },
+      {
+        "date": "2026-03-07",
+        "traffic": 1458,
+        "success": 1416,
+        "failure": 42
+      },
+      {
+        "date": "2026-03-08",
+        "traffic": 1422,
+        "success": 1401,
+        "failure": 21
+      },
+      {
+        "date": "2026-03-09",
+        "traffic": 2474,
+        "success": 2417,
+        "failure": 57
+      },
+      {
+        "date": "2026-03-10",
+        "traffic": 2465,
+        "success": 2394,
+        "failure": 71
+      },
+      {
+        "date": "2026-03-11",
+        "traffic": 2483,
+        "success": 2413,
+        "failure": 70
+      },
+      {
+        "date": "2026-03-12",
+        "traffic": 2517,
+        "success": 2453,
+        "failure": 64
+      },
+      {
+        "date": "2026-03-13",
+        "traffic": 2453,
+        "success": 2377,
+        "failure": 76
+      },
+      {
+        "date": "2026-03-14",
+        "traffic": 1483,
+        "success": 1342,
+        "failure": 141
+      },
+      {
+        "date": "2026-03-15",
+        "traffic": 1579,
+        "success": 1534,
+        "failure": 45
+      },
+      {
+        "date": "2026-03-16",
+        "traffic": 2622,
+        "success": 2542,
+        "failure": 80
+      },
+      {
+        "date": "2026-03-17",
+        "traffic": 2619,
+        "success": 2349,
+        "failure": 270
+      },
+      {
+        "date": "2026-03-18",
+        "traffic": 2687,
+        "success": 2617,
+        "failure": 70
+      },
+      {
+        "date": "2026-03-19",
+        "traffic": 2642,
+        "success": 2586,
+        "failure": 56
+      },
+      {
+        "date": "2026-03-20",
+        "traffic": 2699,
+        "success": 2617,
+        "failure": 82
+      },
+      {
+        "date": "2026-03-21",
+        "traffic": 1657,
+        "success": 1607,
+        "failure": 50
+      },
+      {
+        "date": "2026-03-22",
+        "traffic": 1594,
+        "success": 1546,
+        "failure": 48
+      }
+    ],
+    "anomalies": []
+  },
+  "reliability_insights": {
+    "high_failure_days": [
+      {
+        "date": "2026-02-13",
+        "failure_count": 290,
+        "z_score": 4.47,
+        "direction": "spike"
+      },
+      {
+        "date": "2026-03-17",
+        "failure_count": 270,
+        "z_score": 4.07,
+        "direction": "spike"
+      }
+    ],
+    "unstable_apis": [
+      {
+        "api": "user-api/profile",
+        "mean_failure_rate_percent": 5.03,
+        "std_dev_failure_rate": 8.91
+      },
+      {
+        "api": "order-api/status",
+        "mean_failure_rate_percent": 4.44,
+        "std_dev_failure_rate": 6.89
+      },
+      {
+        "api": "order-api/create",
+        "mean_failure_rate_percent": 4.0,
+        "std_dev_failure_rate": 6.81
+      },
+      {
+        "api": "user-api/login",
+        "mean_failure_rate_percent": 4.12,
+        "std_dev_failure_rate": 6.19
+      },
+      {
+        "api": "payment-api/refund",
+        "mean_failure_rate_percent": 3.44,
+        "std_dev_failure_rate": 5.48
+      }
+    ]
+  },
+  "executive_summary": "### Executive Summary\n\nThe API performance analysis indicates a generally healthy system with a high success rate of 95.82%. However, there are notable concerns regarding specific APIs that require immediate attention to improve reliability and user experience.\n\n#### Key Highlights:\n- **Total API Calls**: 141,151, with a peak of 2,699 calls on March 20, 2026.\n- **Top 5 Busiest APIs**:\n  - `payment-api/refund`: 23,691 requests\n  - `order-api/status`: 23,655 requests\n  - `user-api/profile`: 23,550 requests\n  - `order-api/create`: 23,549 requests\n  - `payment-api/pay`: 23,484 requests\n- **Success Metrics**: 135,244 successful calls and 5,907 failures, resulting in a failure rate of 4.18%.\n\n#### Anomalies and Concerns:\n- **High Failure Rates**: \n  - `user-api/profile` has the highest failure rate at 5.0% with 1,177 failures.\n  - `order-api/status` follows closely with a 4.61% failure rate and 1,091 failures.\n- **High Failure Days**: \n  - February 13, 2026, experienced a spike in failures (290) with a z-score of 4.47.\n  - March 17, 2026, also saw a significant spike (270 failures) with a z-score of 4.07.\n- **Unstable APIs**: \n  - `user-api/profile` and `order-api/status` show high variability in failure rates, indicating potential reliability issues.\n\n#### Actionable Recommendations:\n- **Immediate Focus on High-Failure APIs**: \n  - Prioritize investigation and remediation for `user-api/profile` and `order-api/status` to reduce their failure rates.\n- **Monitor High Failure Days**: \n  - Conduct a root cause analysis for the spikes on February 13 and March 17 to identify underlying issues.\n- **Enhance Testing and Monitoring**: \n  - Implement more rigorous testing protocols for the top 5 busiest APIs to ensure stability and performance under peak loads.\n- **Resource Optimization**: \n  - Review memory usage, as the average is 590.55 MB with a peak of 960 MB, to ensure efficient resource allocation and prevent potential bottlenecks.\n- **Regular Performance Reviews**: \n  - Establish a routine for performance metrics review to proactively address emerging issues and maintain system health.\n\nBy addressing these concerns and implementing the recommendations, we can enhance the reliability and performance of our API services, ultimately improving user satisfaction and operational efficiency."
+}
